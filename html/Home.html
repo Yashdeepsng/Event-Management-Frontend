@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event organisers</title>
+
+
+    <!--swiper css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <!--font awesome-->
+    <link 
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  />
+
+    <!--css.file-->
+    <link rel="stylesheet" href="../css/Home.css">
+  </head>
+  <body>
+    <header class="header">
+        <a href="#" class="logo"><span>Red</span>Carpet</a>
+
+        <nav class="navbar">
+            <a href="../html/Home.html">Home</a>
+            <a href="../html/Categories.html">services</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Price</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+    <section class="home" id="home">
+        <div class="content">
+            ,<h3>
+                BEAUTIFUL PLACES TO BOOK AROUND YOU <br />
+                <span>Look . Book . Enjoy</span>
+            </h3>
+            <a href="../html/contact-page.html"class="btn"target="_blank">get quote</a>
+
+
+        </div>
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../img/tt-1708019404751.jpeg" alt=""> 
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/pasted image 0.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/Screenshot 2024-12-31 124026.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/WhatsApp-Image-2024-06-12-at-11.45.31-AM-2.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/WhatsApp Image 2024-12-29 at 1.55.55 PM.jpeg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/oworking.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        
+        
+    <div id="event-section">
+        <h2>UPCOMING EVENTS</h2>
+    <!-- Search & Filter -->
+    <input type="text" id="searchInput" placeholder="Search events...">
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="music">Music</option>
+        <option value="tech">Tech</option>
+        <option value="sports">Sports</option>
+    </select>
+    </div>
+
+    <!-- Events Container -->
+    <div id="eventsContainer"></div>
+
+    <!-- Modal for Event Details -->
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDate"></p>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+    </section>
+    <section class="service" id="service">
+        <h2 class="heading">Our <span>services</span> </h2>
+     
+        <div class="box-container">
+            <div class="box">
+                <div class="fas fa-photo-video"></div>
+                <a href="wedding-venues.html">
+                <h2>Wedding Venues</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, obcaecati!
+                </p>
+            </div>
+            <div class="box">
+                <div class="fas fa-map-marker-alt"></div>
+                <a href="Meeting-Venues.html">
+                <h2>Meeting Venues</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, obcaecati!
+                </p>
+            </div>
+            <div class="box">
+                <div class="fas fa-volleyball"></div>
+                <a href="turf.html">
+                <h2>Turf Grounds</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, obcaecati!
+                </p>
+            </div>
+            <div class="box">
+                <div class="fas fa-martini-glass"></div>
+                <a href="eventdetails.html">
+                <h2>concerts</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, obcaecati!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class= "about" id="about">
+        <h2 class="heading">about <span>us</span></h2>
+
+        <div class="row">
+            <div class="image">
+                <img src="../img/premium_photo-1661767467261-4a4bed92a507.jpg" alt="" />
+            </div>
+
+            <div class="content">
+                <h3>Your occasion deserves our careful planning</h3>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                    Explicabo asperiores, dicta ipsa 
+                    vel porro vitae eaque enim iste
+                    quae illum saepe repellat est rerum 
+                    ad deleniti cupiditate perspiciatis, nesciunt nihil.
+                </p>
+                <p>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit.
+                    Explicabo asperiores, dicta ipsa 
+                    vel porro vitae eaque enim iste
+                    quae illum saepe repellat est rerum 
+                    ad deleniti cupiditate perspiciatis, nesciunt nihil.
+                </p>
+                <a href="#" class="btn">Reach Us</a>
+            </div>
+        </div>
+    </section>
+    <section class="gallery" id="gallery">
+        <h2 class="heading">our <span>gallery</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="../img/1736934884793.jpg"alt=""/>
+                <h3 class="title">Best Wishes</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="../img/1736934884837.jpg"alt=""/>
+                <h3 class="title">Best Wishes</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="../img/Host Your Executive Meetings in Elegant Event Venues.jpeg"alt=""/>
+                <h3 class="title">Best Wishes</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="../img/pasted image 0 (1).png"alt=""/>
+                <h3 class="title">Best Wishes</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../img/BORIS BREJCHA.jpeg"alt=""/>
+                <h3 class="title">Best Wishes</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="../img/Jio World Convention Centre - International Conference And Wedding Venue in Mumbai.jpeg"alt=""/>
+                <h3 class="title">Best Wishes</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price" id="price">
+        <h2 class="heading">Our <span>Pricing</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <h3 class="title">Basic</h3>
+                <h3 class="amount">Rs.20,000</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>full service</li>
+                    <li><i class="fas fa-check"></i>decoration</li>
+                    <li><i class="fas fa-check"></i>music and photo</li>
+                    <li><i class="fas fa-check"></i>food and drinks</li>
+                    <li><i class="fas fa-check"></i>invitation card</li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+            <div class="box">
+                <h3 class="title">prime</h3>
+                <h3 class="amount">Rs.50,000</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>full service</li>
+                    <li><i class="fas fa-check"></i>decoration</li>
+                    <li><i class="fas fa-check"></i>music and photo</li>
+                    <li><i class="fas fa-check"></i>food and drinks</li>
+                    <li><i class="fas fa-check"></i>invitation card</li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+            <div class="box">
+                <h3 class="title">luxury</h3>
+                <h3 class="amount">Rs.1,00,000</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i>full service</li>
+                    <li><i class="fas fa-check"></i>decoration</li>
+                    <li><i class="fas fa-check"></i>music and photo</li>
+                    <li><i class="fas fa-check"></i>food and drinks</li>
+                    <li><i class="fas fa-check"></i>invitation card</li>
+                </ul>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+    </section>
+    <section class="review" id="review">
+        <h2 class="heading">client's <span>review</span></h2>
+
+         <div class="swiper-container review-slider">
+           <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+            </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="../img/istockphoto-1398385367-612x612.jpg" alt=""/>
+                    <div class="user-info">
+                        <h3>Nayana</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <p>
+                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                   Aperiam in, fuga nostrum provident magnam omnis repellendus
+                   deleniti ipsa, commodi assumenda numquam enim esse maiores 
+                   unde tempora voluptatem distinctio voluptatum iusto.
+                </p>
+         </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="../img/360_F_200902415_G4eZ9Ok3Ypd4SZZKjc8nqJyFVp1eOD6V.jpg" alt=""/>
+                    <div class="user-info">
+                        <h3>John</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <p>
+                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                   Aperiam in, fuga nostrum provident magnam omnis repellendus
+                   deleniti ipsa, commodi assumenda numquam enim esse maiores 
+                   unde tempora voluptatem distinctio voluptatum iusto.
+                </p>
+         </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="../img/istockphoto-949123454-612x612.jpg" alt=""/>
+                    <div class="user-info">
+                        <h3>Maya</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <p>
+                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                   Aperiam in, fuga nostrum provident magnam omnis repellendus
+                   deleniti ipsa, commodi assumenda numquam enim esse maiores 
+                   unde tempora voluptatem distinctio voluptatum iusto.
+                </p>
+        </div>
+            <div class="swiper-slide box">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="../img/headshot-with-client-testimonial.jpg" alt=""/>
+                    <div class="user-info">
+                        <h3>David</h3>
+                        <span>happy customer</span>
+                    </div>
+                </div>
+                <p>
+                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                   Aperiam in, fuga nostrum provident magnam omnis repellendus
+                   deleniti ipsa, commodi assumenda numquam enim esse maiores 
+                   unde tempora voluptatem distinctio voluptatum iusto.
+                </p>
+            </div>
+           </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">contact <span>us</span></h2>
+
+        <form action="#">
+            <div class="inputBox">
+                <input type="text" placeholder="name" />
+                <input type="email" placeholder="email" />
+            </div>
+            <div class="inputBox">
+                <input type="tel" placeholder="phone" />
+                <input type="text" placeholder="subject" />
+            </div>   
+            <textarea 
+              name="" 
+              id="" 
+              cols="30" 
+              rows="10"
+              placeholder="message"
+            ></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+    </section>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+            <h3>branches</h3>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> bangalore</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> hyderabad</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> delhi</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> mumbai</a>
+            </div>
+
+            <div class="box">
+               <h3>quick links</h3>
+               <a href="#"><i class="fas fa-arrow-right"></i>home</a>
+               <a href="#"><i class="fas fa-arrow-right"></i>Services</a>
+               <a href="#"><i class="fas fa-arrow-right"></i>About</a>
+               <a href="#"><i class="fas fa-arrow-right"></i>Gallery</a>
+               <a href="#"><i class="fas fa-arrow-right"></i>Price</a>
+               <a href="#"><i class="fas fa-arrow-right"></i>Review</a>
+               <a href="#"><i class="fas fa-arrow-right"></i>Contact</a> 
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i> +91 7990368173</a>
+                <a href="#"><i class="fas fa-phone"></i> +91 9917354695</a>
+                <a href="#"><i class="fas fa-envelope"></i> ryash7394@gmail.com</a>
+                <a href="#"><i class="fas fa-envelope"></i> ckomal0707@gmail.com</a>
+                <a href="#">
+                    <i class="fas fa-map-marker-alt"> </i>
+                    bangalore, india - 560054
+                </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab-fa-facebook-f"></i>facebook</a>
+                <a href="#"><i class="fab-fa-twitter"></i>twitter</a>
+                <a href="#"><i class="fab-fa-instagram"></i>instagram</a>
+                <a href="#"><i class="fab-fa-linkedin-in"></i><linkedin-in></linkedin-in></a>
+            </div>
+        </div>
+
+        <div class="credit">
+            created by <span>red carpet</span> | all rights reserved
+        </div>
+    </section>
+
+    <!--swiper js-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--script file-->
+    <script src="../js/script.js"></script>
+    <script src="../js/scrpt.js"></script>
+  </body>
+</html>

@@ -1,0 +1,195 @@
+:root{
+    --theme-color: #7d3ca8;
+}
+
+body {
+    font-family: "century gothic";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+  }
+  
+  section{
+  padding: 2rem 9%;
+  }
+  
+  body{
+      background: #333;
+      width: 100%;
+  }
+  
+  .header {
+      font-size: large;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #333;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 9%;
+  }
+  
+  .header .logo {
+      color: #fff;
+      font-weight: bolder;
+      font-size: 2.5rem;
+      text-decoration: none;
+  }
+  
+  .header .logo span{
+      color: var(--theme-color)
+  }
+  
+  .header .navbar a {
+      font-size: 1.7rem;
+      text-decoration: none;
+      color: #fff;
+      margin-left: 2rem; 
+  }
+  
+  .header .navbar a:hover {
+      color: var(--theme color);
+  }
+  
+  menu-bar {
+      font-size: 3rem;
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+  }
+
+
+
+body {
+    font-family: century gothic;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 1100px;
+    font-style: century gothic;
+    background: #333;
+    padding: 20px;
+    padding-top: 160px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #eee;
+    font-size: 20px;
+    padding-left: 400px;
+}
+
+.sports-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-family: century gothic;
+}
+
+.sports-options button {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    background: #eee;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: century gothic;
+}
+
+.sports-options .active {
+    background: #7d3ca8;
+    color: white;
+}
+
+.booking-details {
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input, select {
+    font-family: century gothic;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.time-duration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-duration div {
+    width: 48%;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-to-cart {
+    background: white;
+    border: 1px solid black;
+    color: black;
+    font-family: century gothic;
+}
+
+.next {
+    background:#7d3ca8;
+    color: #ffffff;
+    border: 1px solid;
+
+    width: 50%;
+    text-align: center;
+    
+    font-family: century gothic;
+}
+
+
+

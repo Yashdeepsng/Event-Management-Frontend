@@ -1,0 +1,168 @@
+:root{
+    --theme-color: #7d3ca8;
+}
+
+body {
+    font-family: "century gothic";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+  }
+  
+  section{
+  padding: 2rem 9%;
+  }
+  
+  body{
+      background: #333;
+  }
+  
+  .header {
+      font-size: large;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #333;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 9%;
+  }
+  
+  .header .logo {
+      color: #fff;
+      font-weight: bolder;
+      font-size: 2.5rem;
+      text-decoration: none;
+  }
+  
+  .header .logo span{
+      color: var(--theme-color)
+  }
+  
+  .header .navbar a {
+      font-size: 1.7rem;
+      text-decoration: none;
+      color: #fff;
+      margin-left: 2rem; 
+  }
+  
+  .header .navbar a:hover {
+      color: var(--theme color);
+  }
+  
+  menu-bar {
+      font-size: 3rem;
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+  }
+
+
+form {
+    display: flex;
+    font-family: century gothic;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2{
+    color: #fff;
+    font-size: 30px;
+}
+
+.container{
+    padding: 100px;
+    background-color: #333;
+}
+
+label {
+    font-size: 14px;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+    padding-right: 550px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #4a148c;
+}
+
+
+.footer{
+    background: #111;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem, 0;
+    color: #fff;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem, 0;
+    color: #eee;
+}
+
+.footer .box-container .box a i {
+    padding-right: 1.5rem;
+    color: var(--theme-color);
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.footer .credit {
+    text-align: center;
+    border-top: 0.1rem solid #222;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+}
+
+.footer .credit span{
+    color: var(--theme-color);
+}

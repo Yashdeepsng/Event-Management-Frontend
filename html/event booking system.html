@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Booking System</title>
+    <link rel="stylesheet" href="../css/event booking system.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Red</span>Carpet</a>
+
+        <nav class="navbar">
+            <a href="../html/Home.html">Home</a>
+            <a href="../html/Categories.html">services</a>
+            <a href="#">About</a>
+            <a href="#">Gallery</a>
+            <a href="#">Price</a>
+            <a href="#">Review</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+    </header>
+
+    <div class="container">
+        <h1>Upcoming Events</h1>
+        <input type="text" id="searchInput" placeholder="Search events..." onkeyup="filterEvents()">
+        <div class="event-container" id="eventContainer"></div>
+    </div>
+
+    <!-- Event Details Modal -->
+    <div id="eventDetailsModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="eventTitle"></h2>
+            <p id="eventDate"></p>
+            <p id="eventLocation"></p>
+            <p id="eventDescription"></p>
+            <button onclick="bookEvent()">Book Now</button>
+            <p id="bookingMessage" class="success-message"></p>
+        </div>
+    </div>
+
+    <!-- Add Event Form -->
+    <div class="form-container">
+        <h2>Add a New Event</h2>
+        <form id="eventForm">
+            <input type="text" id="eventTitleInput" placeholder="Event Title" required>
+            <input type="date" id="eventDateInput" required>
+            <input type="text" id="eventLocationInput" placeholder="Location" required>
+            <textarea id="eventDescriptionInput" placeholder="Event Description" required></textarea>
+            <input type="text" id="eventImageInput" placeholder="Image URL (optional)">
+            <button type="submit">Add Event</button>
+        </form>
+    </div>
+
+    <!-- My Bookings Section -->
+    <div class="bookings-container">
+        <h2>My Bookings</h2>
+        <ul id="bookingsList"></ul>
+    </div>
+
+    <script src="../js/event booking system.js"></script>
+</body>
+</html>

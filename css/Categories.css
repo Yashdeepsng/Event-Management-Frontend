@@ -1,0 +1,228 @@
+.club-title {
+    text-align:center;
+    font-size: 40px;
+    font-family: century gothic;
+    color: #ffffff;
+    text-transform: uppercase;
+    animation: fadeInDown 1.5s ease-out;
+  }
+  
+  .tagline {
+    text-align: center;
+    font-weight:    bold;
+    font-family:    century gothic;
+    margin-top:     20px;
+    padding-bottom: 100px;
+    font-size:      px;
+    color:          #ffff;
+    animation:      fadeInUp 1.5s ease-out;
+  }
+  
+  .events {
+    background-color: #333;
+    padding: 50px 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 50px;
+    font-family: century gothic;
+    margin-bottom: 100px;
+    color: #fff;
+  }
+  
+  .events-grid {
+    display: grid;
+    background-color: #333;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+  }
+  
+  .event-card {
+    background-color: #333;
+    border-width: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .event-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .event-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: fill;
+  }
+  
+  .event-info {
+      position: relative;
+      z-index: 2; /* Ensure text is above the background */
+      padding: 30px;
+      font-family: century gothic;
+      background: url('../img/product-jpeg-500x500.jpg') center/cover no-repeat; /* Add turf ground image */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add depth */
+      color: #fff;
+    }
+  
+    .event-info2 {
+      position: relative;
+      z-index: 2; /* Ensure text is above the background */
+      padding: 20px;
+      font-family: century gothic;
+      background: url('../img/Hazuri-Bagh-at-Noor-Mahal-Karnal.jpg') center/cover no-repeat; /* Add turf ground image */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add depth */
+      color: #fff;
+    }
+
+    .event-info3 {
+      position: relative;
+      z-index: 2; /* Ensure text is above the background */
+      padding: 20px;
+      font-family: century gothic;
+      background: url('../img/images.jpg') center/cover no-repeat; /* Add turf ground image */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add depth */
+      color: #fff;
+    }
+
+    .event-info4 {
+      position: relative;
+      z-index: 2; /* Ensure text is above the background */
+      padding: 20px;
+      font-family: century gothic;
+      background: url('../img/pexels-thibault-trillet-44912-167491.jpg') center/cover no-repeat; /* Add turf ground image */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add depth */
+      color: #fff;
+    }
+
+    .event-info5 {
+      position: relative;
+      z-index: 2; /* Ensure text is above the background */
+      padding: 20px;
+      font-family: century gothic;
+      background: url('../img/pasted\ image\ 0.png') center/cover no-repeat; /* Add turf ground image */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add depth */
+      color: #fff;
+    }
+
+    .event-info6 {
+      position: relative;
+      z-index: 2; /* Ensure text is above the background */
+      padding: 20px;
+      font-family: century gothic;
+      background: url('../img/sitting-dinner-table-handsome-young-600nw-1294608028.jpg') center/cover no-repeat; /* Add turf ground image */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add depth */
+      color: #fff;
+    }
+
+    .event-info7 {
+      position: relative;
+      z-index: 2; /* Ensure text is above the background */
+      padding: 20px;
+      font-family: century gothic;
+
+      background: url('../img/WhatsApp-Image-2024-06-12-at-11.45.31-AM-2.jpeg') center/cover no-repeat; /* Add turf ground image */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add depth */
+      color: #fff;
+    }
+
+    .event-info8 {
+      position: relative;
+      z-index: 2; /* Ensure text is above the background */
+      padding: 20px;
+      background: url('../img/oworking.jpg') center/cover no-repeat; /* Add turf ground image */
+      border-radius: 10px; /* Optional: rounded corners */
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add depth */
+      color: #fff;
+    }
+
+  .event-info h3 {
+    font-size: px;
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  .event-info p {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .ticket-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ticket-btn:hover {
+    background-color: #6a1b9a;
+  }
+  body {
+    font-family:century gothic;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    margin: 0;
+    padding: 0;
+}
+
+* {box-sizing: border-box}
+
+
+.footer{
+  background: #111;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.5rem;
+  padding: 1rem, 0;
+  color: #fff;
+}
+
+.footer .box-container .box a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem, 0;
+  color: #eee;
+}
+
+.footer .box-container .box a i {
+  padding-right: 1.5rem;
+  color: var(--theme-color);
+}
+
+.footer .box-container .box a:hover i {
+  padding-right: 1.5rem;
+  color: #fff;
+}
+
+.footer .credit {
+  text-align: center;
+  border-top: 0.1rem solid #222;
+  color: #fff;
+  padding: 2rem;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+}
+
+.footer .credit span{
+  color: var(--theme-color);
+}
+

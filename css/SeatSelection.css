@@ -1,0 +1,208 @@
+:root{
+    --theme-color: #7d3ca8;
+}
+
+body {
+    font-family: "century gothic";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+  }
+  
+  section{
+  padding: 2rem 9%;
+  }
+  
+  body{
+      background: #333;
+  }
+  
+  .header {
+      font-size: large;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #333;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 9%;
+  }
+  
+  .header .logo {
+      color: #fff;
+      font-weight: bolder;
+      font-size: 2.5rem;
+      text-decoration: none;
+  }
+  
+  .header .logo span{
+      color: var(--theme-color)
+  }
+  
+  .header .navbar a {
+      font-size: 1.7rem;
+      text-decoration: none;
+      color: #fff;
+      margin-left: 2rem; 
+  }
+  
+  .header .navbar a:hover {
+      color: var(--theme color);
+  }
+  
+  menu-bar {
+      font-size: 3rem;
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+  }
+
+
+
+
+
+
+.seat-selection-container {
+    width: 85%;
+    background: #333;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+    font-size:28px;
+}
+
+.stage-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.seating-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.seat {
+    width: 90%;
+    padding: 11px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.vip {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.premium {
+    background-color: #66ccff;
+    color: rgb(255, 255, 255);
+}
+
+.superior {
+    background-color: #e066ff;
+    color: white;
+}
+
+.ticket-selection {
+    margin: 15px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.ticket-btn {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.book-now {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 55%;
+    margin-top: 10px;
+}
+
+.book-now:hover {
+    background-color: darkviolet;
+}
+
+
+.footer{
+    background: #111;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem, 0;
+    color: #fff;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem, 0;
+    color: #eee;
+}
+
+.footer .box-container .box a i {
+    padding-right: 1.5rem;
+    color: var(--theme-color);
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.footer .credit {
+    text-align: center;
+    border-top: 0.1rem solid #222;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+}
+
+.footer .credit span{
+    color: var(--theme-color);
+}

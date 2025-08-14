@@ -1,0 +1,159 @@
+body {
+    font-family: century gothic;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.header {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    background-color:  #383737;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.back-btn {
+    background: none;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.turf-banner {
+    background: url('../img/tt-1708019404751.jpeg') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.turf-details {
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+    color: #fff;
+    background:  #383737;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    color: gold;
+    font-size: 18px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+h3{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.photo-gallery {
+    text-align: center;
+    display: center;
+    color: #fff;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.photo-gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.sports {
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.book-now {
+    background: #6200ea;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sports-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.amenities {
+    padding: 0px;
+    text-align: center;
+    background: #333;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+p{
+    color: #fff;
+}
+
+.footer{
+    background: #111;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem, 0;
+    color: #fff;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem, 0;
+    color: #eee;
+}
+
+.footer .box-container .box a i {
+    padding-right: 1.5rem;
+    color: var(--theme-color);
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.footer .credit {
+    text-align: center;
+    border-top: 0.1rem solid #222;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+}
+
+.footer .credit span{
+    color: var(--theme-color);
+}

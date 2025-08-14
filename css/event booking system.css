@@ -1,0 +1,231 @@
+:root{
+    --theme-color: #7d3ca8;
+}
+
+*{
+    font-family: century gothic;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+}
+
+section{
+padding: 2rem 9%;
+}
+
+body{
+    background: #333;
+}
+
+.header {
+    font-size: large;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #303030;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+}
+
+.header .logo {
+    color: #fff;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.header .logo span{
+    color: var(--theme-color)
+}
+
+.header .navbar a {
+    font-size: 1.7rem;
+    color: #fff;
+    margin-left: 2rem; 
+}
+
+.header .navbar a:hover {
+    color: var(--theme color);
+}
+
+menu-bar {
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* General Styles */
+body {
+    font-family: century gothic;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.container h1 {
+    padding-top: 110px;
+    font-size: 35px;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+}
+
+/* Search Bar */
+#searchInput {
+    width: 50%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Event Cards */
+.event-container {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event-card {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    width: 450px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.event-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.3);
+}
+
+.event-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.event-card h3 {
+    margin: 10px 0 5px;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    background: white;
+    color: black;
+    margin: 10% auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Success Message */
+.success-message {
+    color: green;
+    font-weight: bold;
+    display: none;
+}
+
+/* Event Form */
+.form-container {
+    margin-top: 30px;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 15px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Bookings Section */
+.bookings-container {
+    margin-top: 30px;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+
+.bookings-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bookings-container li {
+    background: #333;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookings-container li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

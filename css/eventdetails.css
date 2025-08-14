@@ -1,0 +1,171 @@
+:root{
+    --theme-color: #7d3ca8;
+}
+
+body {
+    font-family: "century gothic";
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #333;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+  }
+  
+  section{
+  padding: 2rem 9%;
+  }
+  
+  body{
+      background: #333;
+  }
+  
+  .header {
+      font-size: large;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: #333;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1.5rem 9%;
+  }
+  
+  .header .logo {
+      color: #fff;
+      font-weight: bolder;
+      font-size: 2.5rem;
+      text-decoration: none;
+  }
+  
+  .header .logo span{
+      color: var(--theme-color)
+  }
+  
+  .header .navbar a {
+      font-size: 1.7rem;
+      text-decoration: none;
+      color: #fff;
+      margin-left: 2rem; 
+  }
+  
+  .header .navbar a:hover {
+      color: var(--theme color);
+  }
+  
+  menu-bar {
+      font-size: 3rem;
+      text-decoration: none;
+      color: #fff;
+      cursor: pointer;
+      display: none;
+  }
+
+  body {
+    font-family: "century gothic";
+    width: px;
+    background-color: #1b1a1a;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.event-container {
+    width: 90%;
+    background: #333;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 110px;
+    padding-top: 190px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event-image img { 
+        width: 40%;
+        border-radius: 12px;
+    }
+  
+     
+
+.event-info h2 {
+    font-size: 30px;
+    font-style: bold;
+    padding-top: 30px;
+    color:#fff;
+}
+
+.event-info p {
+    font-size: 16px;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.select-ticket {
+    background-color: purple;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.select-ticket:hover {
+    background-color: darkviolet;
+}
+
+
+
+.footer{
+    background: #111;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.5rem;
+    padding: 1rem, 0;
+    color: #fff;
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 1rem, 0;
+    color: #eee;
+}
+
+.footer .box-container .box a i {
+    padding-right: 1.5rem;
+    color: var(--theme-color);
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 1.5rem;
+    color: #fff;
+}
+
+.footer .credit {
+    text-align: center;
+    border-top: 0.1rem solid #222;
+    color: #fff;
+    padding: 2rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+}
+
+.footer .credit span{
+    color: var(--theme-color);
+}
